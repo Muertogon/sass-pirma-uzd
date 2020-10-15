@@ -1,0 +1,57 @@
+.body {
+  font-family: "Architects Daughter", cursive;
+}
+
+.virsus {
+  background: #5dc2de;
+  margin-bottom: -10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.virsus .h22 {
+  color: #e6c20e;
+}
+
+.vidurys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.vidurys .contact {
+  padding-right: 10px;
+  background-color: #d5f5ef;
+  -webkit-box-flex: 28%;
+      -ms-flex: 28%;
+          flex: 28%;
+  margin-left: -10px;
+  margin-right: 2px;
+  padding: 10px;
+}
+
+.vidurys .stuff {
+  padding: 2px;
+  background-color: #d5f5ef;
+  -webkit-box-flex: 70%;
+      -ms-flex: 70%;
+          flex: 70%;
+  margin-right: -10px;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */

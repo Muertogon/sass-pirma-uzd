@@ -1,0 +1,55 @@
+$primaryBtn:#5dc2de;
+$borderColor:#12181a;
+$linkColor:#360c02;
+$textColor: #e6c20e;
+$font-family: 'Architects Daughter', cursive;
+$bgf:#d5f5ef;
+$tarpas:2px;
+$f: flex;
+$r: row;
+$pad: 10px;
+$midl:center;
+$minmar:-10px;
+.body{
+    font-family: $font-family;
+}
+@mixin flexColumn{
+    display: $f;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+@mixin flexCenter{
+    display:flex;
+    justify-content: $midl;
+    align-items: $midl;
+}
+.virsus{
+    background: $primaryBtn;
+    margin-bottom:- 10px;
+    @include flexCenter()
+    .h22{
+        color: $textColor;
+    }
+}
+.vidurys{
+    display:$f;
+    flex-direction:$r;
+    padding: $pad;
+    justify-content: $midl;
+    .contact{
+        padding-right: $pad;
+        background-color: $bgf;
+        flex:28%;
+        margin-left: $minmar;
+        margin-right: $tarpas;
+        padding: $pad;
+    
+    }
+    .stuff{
+        padding: $tarpas;
+        background-color: $bgf;
+        flex:70%;
+        margin-right: $minmar;
+        padding: $pad;
+    }
+}
